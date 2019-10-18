@@ -1,0 +1,79 @@
+.card1{
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.card2{
+    margin-top: 25px;
+  margin-right: 25px;
+}
+
+.card-body.list-task{
+	max-height: 60vh;
+	height: 60vh;
+	overflow-y: auto;
+	background-color: #DAEEF2;
+}
+
+.list-task .list-group-item {
+	border-radius: 12px;
+}
+
+.list-group {
+	height: 100%;
+}
+
+.list-group-item {
+	margin-bottom: 6px;
+	font-size: 12px;
+	box-shadow: 5px 5px 10px #BDC3C7;
+}
+
+.list-group-item:hover {
+	cursor: all-scroll;
+	border-color: #22A7F0;
+	border-style: solid;
+	border-width: 2px;
+	transition: 0.2s;
+}
+
+.list-group-item .card-body {
+	padding: unset;
+}
+
+.ghost {
+	opacity: .5;
+	background-color: #F2F1EF;
+}
+
+nav {
+	background-color: white;
+}
+
+.card .link-head {
+	color: unset;
+	text-decoration: unset;
+	transition: 0.2s;
+}
+
+.card .link-head:hover {
+	color: #0088ca;
+	transition: 0.7s;
+}
+
+.fa.ic {
+	text-decoration: unset;
+	font-size: 21px;
+	color: #767676;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.fa.ic:hover {
+	color: #28e621;
+	transition: 0.7s;
+}
+
+.row .card-list{
+	margin-top: 10px;
+}
